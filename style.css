@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 450px;
+    background: aqua;
+    padding: 25px 20px;
+    text-align: center;
+  
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.frist-B{
+    width: 100%;
+    border: none;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+}
+.frist-h1{
+    font: 600 2.5em Arial, san-serif;
+    position: relative;
+}
+.frist-h1::before{
+   content: "";
+   display: block;
+   width: 100px;
+   height: 2px;
+   background: #000;
+   position: absolute;
+   left: 0;
+   top: 50%; 
+}
+.frist-h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%; 
+}
+.AllInput{
+    padding: 10px;
+    display: block;
+    margin: 20px 0;
+ 
+}
+.AllInput2{
+    padding: 10px;
+    margin: 20px 5px 0 0;
+}
+.First{
+    margin: 0 10px 0 0;
+}
+.w100{
+    width: 100%;
+}
+#cBox{
+    text-align: left;
+}
+
+/* List css */
+section{
+    margin: 0 0 0 40px;
+    text-align: left;
+}
+
+
+/* Paragraf css */
+.redtxt{
+    color: red;
+}
+.greentxt{
+    color: green;
+}
+.bluetxt{
+    color: blue;
+}
+.yellotxt{
+    color: yellow;
+    background: gray;
+    display: inline-block;
+}
+
+/* Border-bottom css */
+#Bor-Bot{
+    width: 600px;
+    
+}
+.Bor-Bot{
+    background: aqua;
+    border-bottom: 4px solid green;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+hr{
+    margin: 20px 0;
+}
+/* Border-Left css */
+#Bor-Left{
+    width: 400px;
+}
+.Bor-Left{
+    background: aqua;
+    border-left: 4px solid cornflowerblue;
+    padding: 10px;
+}
+/* Reservation css */
+.f-label{
+    display: block;
+    margin: 10px 0;
+}
+.mini-num{
+    width: 50px;
+}
+
+#s-form{
+    width: 600px;
+    border: 4px solid royalblue;
+    padding: 20px;
+}
+.two_bot{
+    margin: 20px 10px;
+}
+.block{
+    display: block;
+}
+.margin{
+    margin: 20px 0;
+}
+#t_form{
+    width: 500px;
+}
+#t_form input{
+    float: right;
+    padding: 6px 5px;   
+    margin: 8px 0;
+}
+textarea{
+    float: left;
+    order: -1;
+}
+.last_name{
+    margin: 0 0 0 10px ;
+    order: 1;
+}
